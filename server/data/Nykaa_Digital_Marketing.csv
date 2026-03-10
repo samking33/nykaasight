@@ -1,0 +1,31 @@
+Date,Campaign_Type,Channel_Used,Revenue,ROI,Conversions,Impressions,Acquisition_Cost,Language,Segment
+2025-01-05,Retargeting,Instagram,420000,3.8,890,4200000,230,English,Gen Z
+2025-01-08,Influencer,YouTube,375000,3.2,760,3100000,255,Hindi,Millennial
+2025-01-12,Seasonal,Email,215000,4.1,540,1800000,185,English,Premium
+2025-01-15,Performance,Google Ads,460000,3.4,980,5200000,265,English,Mass
+2025-01-18,Brand,Facebook,198000,2.7,470,2400000,310,Hindi,Mass
+2025-01-22,Retargeting,Instagram,438000,3.9,915,4350000,228,English,Gen Z
+2025-01-28,App Promo,In-App,305000,3.5,670,2650000,198,Tamil,Premium
+2025-02-03,Influencer,YouTube,389000,3.3,801,3220000,252,Hindi,Millennial
+2025-02-08,Seasonal,Email,226000,4.2,556,1860000,182,English,Premium
+2025-02-12,Performance,Google Ads,478000,3.6,1005,5410000,261,English,Mass
+2025-02-16,Brand,Facebook,204000,2.8,486,2470000,304,Hindi,Mass
+2025-02-21,Retargeting,Instagram,452000,4.0,940,4480000,224,English,Gen Z
+2025-02-24,App Promo,In-App,319000,3.6,688,2740000,194,Tamil,Premium
+2025-03-02,Influencer,YouTube,401000,3.4,820,3320000,248,Hindi,Millennial
+2025-03-06,Seasonal,Email,237000,4.3,574,1910000,179,English,Premium
+2025-03-11,Performance,Google Ads,491000,3.7,1028,5530000,258,English,Mass
+2025-03-15,Brand,Facebook,212000,2.9,499,2530000,298,Hindi,Mass
+2025-03-19,Retargeting,Instagram,467000,4.1,963,4610000,221,English,Gen Z
+2025-03-23,App Promo,In-App,328000,3.7,705,2810000,191,Tamil,Premium
+2025-03-27,Affiliate,Marketplace,286000,3.0,630,2600000,210,English,Value
+2025-04-03,Influencer,YouTube,415000,3.5,840,3410000,244,Hindi,Millennial
+2025-04-08,Seasonal,Email,246000,4.4,592,1970000,176,English,Premium
+2025-04-12,Performance,Google Ads,506000,3.8,1052,5670000,254,English,Mass
+2025-04-16,Brand,Facebook,219000,3.0,513,2590000,295,Hindi,Mass
+2025-04-20,Retargeting,Instagram,479000,4.2,986,4720000,218,English,Gen Z
+2025-04-24,App Promo,In-App,339000,3.8,721,2870000,189,Tamil,Premium
+2025-04-28,Affiliate,Marketplace,295000,3.1,647,2670000,207,English,Value
+2025-05-03,Influencer,YouTube,427000,3.6,859,3490000,241,Hindi,Millennial
+2025-05-08,Seasonal,Email,255000,4.5,608,2030000,173,English,Premium
+2025-05-12,Performance,Google Ads,519000,3.9,1075,5790000,251,English,Mass

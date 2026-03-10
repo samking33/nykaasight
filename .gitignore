@@ -1,0 +1,25 @@
+# Secrets
+.env
+**/.env
+**/.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+coverage/
+
+# Vercel/Supabase local state
+.vercel/
+**/.vercel/
+supabase/.temp/
+
+# OS/editor artifacts
+.DS_Store
+.idea/
+.vscode/
+*.log
