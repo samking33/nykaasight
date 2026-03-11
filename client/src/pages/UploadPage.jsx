@@ -24,6 +24,7 @@ const inferType = (values) => {
 };
 
 const formatSize = (bytes) => `${(bytes / 1024).toFixed(1)} KB`;
+const HOSTED_UPLOAD_SAFE_LIMIT_BYTES = 4 * 1024 * 1024;
 
 function UploadPage({ onDatasetReady }) {
   const navigate = useNavigate();
@@ -82,6 +83,14 @@ function UploadPage({ onDatasetReady }) {
 
   const runUpload = async (file) => {
     if (!file) return;
+
+    const isHosted = typeof window !== 'undefined' && window.location.hostname.endsWith('vercel.app');
+    if (isHosted && file.size > HOSTED_UPLOAD_SAFE_LIMIT_BYTES) {
+      const message = 'This CSV is too large for hosted upload limits. Use a smaller file or click Load Nykaa Sample Dataset.';
+      setError(message);
+      addToast({ type: 'warning', message });
+      return;
+    }
 
     setPhase('uploading');
     setProgress(15);

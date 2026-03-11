@@ -1,17 +1,12 @@
 import axios from 'axios';
 
 const resolveBaseUrl = () => {
-  const explicit = (import.meta.env.VITE_API_URL || '').trim();
-  if (explicit) return explicit;
+  const explicit = (import.meta.env.VITE_API_URL || '').trim().replace(/\/$/, '');
 
-  if (typeof window !== 'undefined') {
-    const host = window.location.hostname;
-    if (host.endsWith('vercel.app')) {
-      return '/api';
-    }
-  }
-
-  return 'http://localhost:5001';
+  if (!explicit) return '';
+  if (explicit === '/api') return '';
+  if (/\/api$/i.test(explicit)) return explicit.replace(/\/api$/i, '');
+  return explicit;
 };
 
 const api = axios.create({

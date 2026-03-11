@@ -3,6 +3,10 @@
     {
       "source": "/api/(.*)",
       "destination": "https://server-two-flax-29.vercel.app/api/$1"
+    },
+    {
+      "source": "/((?!api/|assets/|.*\\..*).*)",
+      "destination": "/index.html"
     }
   ]
 }

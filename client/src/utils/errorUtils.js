@@ -1,4 +1,8 @@
 export const getApiErrorMessage = (error, fallback = 'Something went wrong') => {
+  if (Number(error?.response?.status) === 413) {
+    return 'Upload is too large for hosted server limits. Use a smaller CSV or load the demo dataset.';
+  }
+
   if (!error?.response) {
     return 'Connection error — check your server';
   }
